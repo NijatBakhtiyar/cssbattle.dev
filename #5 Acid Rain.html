@@ -1,0 +1,36 @@
+<p a></p>
+<p b></p>
+<p c>
+  <style>
+    body {
+      background: #0b2429;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    p {
+      width: 120px;
+      height: 120px;
+      background: #dd6b4d;
+      border-radius: 50%;
+    }
+    p[a] {
+      position: relative;
+      z-index: 2;
+      background: #f3ac3c;
+      transform: translate(60px, 60px);
+      border-top-right-radius: 0;
+    }
+    p[b] {
+      position: relative;
+      z-index: 1;
+      background: #998235;
+      transform: translate(0px, 0px);
+      border-top-right-radius: 0;
+    }
+    p[c] {
+      background: #f3ac3c;
+      transform: translate(-60px, -60px);
+    }
+  </style>
+</p>
